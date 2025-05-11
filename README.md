@@ -1,8 +1,3 @@
----
-layout: default
-title: Sonic Hoshi DX
----
-
 ## Sonic Hoshi DX
 
 Welcome to the official page of **Sonic Hoshi DX**, a fan-made 2D Sonic game.
