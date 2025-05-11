@@ -1,2 +1,4 @@
-name: SONIC HOSHI
+name: SONIC HOSHI DX
 theme: minima
+minima:
+  skin: dark
