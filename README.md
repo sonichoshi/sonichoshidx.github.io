@@ -37,5 +37,6 @@ While we don't have a new demo, check out the original Sonic Hoshi!
 ## Development
 
 Follow the game's progress on [Twitter](https://twitter.com/HoshiSonicDX)
+Join the discord server [Discord](https://discord.gg/ZhZXKvynmq)
 
 ---
