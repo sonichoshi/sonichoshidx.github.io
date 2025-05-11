@@ -7,7 +7,7 @@ title: Sonic Hoshi DX
 
 Welcome to the official page of **Sonic Hoshi DX**, a fan-made 2D Sonic game.
 
-[Sonic Hoshi Banner] (assets/logo.png)
+![Sonic Hoshi Banner] (https://assets/logo.png)
 
 ---
 
