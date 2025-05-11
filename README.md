@@ -2,7 +2,7 @@
 
 Welcome to the official page of **Sonic Hoshi DX**, a fan-made 2D Sonic game.
 
-![Sonic Hoshi Banner](https://raw.githubusercontent.com/sonichoshi/sonichoshidx.github.io/main/assets/logo.png)
+![Sonic Hoshi Banner](https://raw.githubusercontent.com/sonichoshi/sonichoshidx.github.io/main/assets/titletest.gif)
 
 ---
 
