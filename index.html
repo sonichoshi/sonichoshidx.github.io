@@ -3,28 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <div class="logo">
-  <img src="https://raw.githubusercontent.com/sonichoshi/sonichoshidx.github.io/main/assets/logo.png" alt="Sonic Hoshi DX Logo">
-  </div>
+  <title>Sonic Hoshi DX</title>
   <style>
-    .logo {
-    text-align: center;
-    margin-top: 30px;
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0b0b0b;
+      color: #ffffff;
+      text-align: center;
     }
 
     .logo-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0;
-    background-color: #000;
-    background-image: 
-      linear-gradient(45deg, #444 25%, transparent 25%),
-      linear-gradient(-45deg, #444 25%, transparent 25%),
-      linear-gradient(45deg, transparent 75%, #444 75%),
-      linear-gradient(-45deg, transparent 75%, #444 75%);
-    background-size: 40px 40px;
-    background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+      background-image: 
+        linear-gradient(45deg, #444 25%, transparent 25%),
+        linear-gradient(-45deg, #444 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #444 75%),
+        linear-gradient(-45deg, transparent 75%, #444 75%);
+      background-size: 40px 40px;
+      background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+      padding: 40px 0;
     }
 
     .logo-banner img {
@@ -33,151 +30,69 @@
       height: auto;
     }
 
-
-    .logo img {
-      max-width: 300px;
-      width: 80%;
-      height: auto;
-    }
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #0b0b0b;
-      color: #ffffff;
-    }
-    header {
-      padding: 60px 20px;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 3em;
-      margin: 0;
-    }
-    nav {
-      background-color: #111;
-      padding: 10px 0;
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      padding: 60px 20px;
+    .section {
       max-width: 900px;
-      margin: auto;
+      margin: 40px auto;
+      padding: 0 20px;
     }
-    h2 {
-      text-align: center;
-      color: #800080;
+
+    .section h2 {
       font-size: 2em;
+      color: #800080;
       margin-bottom: 20px;
     }
-    .media img {
+
+    .screenshots img {
       width: 100%;
-      text-align: center;
       max-width: 600px;
-      margin: 20px 0;
+      margin: 20px auto;
       border-radius: 10px;
     }
-    .download {
-      text-align: center;
-      margin-top: 40px;
-    }
+
     .download a {
-      background-color: #000000;
+      background-color: #000;
       color: #fff;
       padding: 15px 30px;
       text-decoration: none;
       font-size: 1.2em;
       border-radius: 5px;
       display: inline-block;
+      margin-top: 30px;
     }
+
     footer {
       background-color: #111;
       color: #aaa;
-      text-align: center;
       padding: 30px 20px;
-    }
-    .credits ul {
-      list-style: none;
-      padding: 0;
-      text-align: center;
-    }
-    .credits li {
-      margin: 5px 0;
-      text-align: center;
+      margin-top: 60px;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <p>A complete reimagining of the original Sonic Hoshi project, built from the ground up to deliver a richer, more polished experience.</p>
-  </header>
+  <div class="logo-banner">
+    <img src="https://raw.githubusercontent.com/sonichoshi/sonichoshidx.github.io/main/assets/logo.png" alt="Sonic Hoshi DX Logo">
+  </div>
 
-  <nav>
-    <a href="#story">Story</a>
-    <a href="#characters">Characters</a>
-    <a href="#features">Features</a>
-    <a href="#media">Media</a>
-    <a href="#download">Download</a>
-    <a href="#credits">Credits</a>
-  </nav>
-
-  <section id="story">
-    <h2>Story</h2>
+  <div class="section">
+    <h2>About the Game</h2>
     <p>
-      Dr. Eggman sets his sights on Starshine Island to take it for himself after learning of the myth surrounding the Celestial Star, a potent relic believed to have the ability to manipulate space and time. Eggman intends to rewrite the world in his image with his most recent and dangerous creation, REDACTED, which is powered by the artifact itself. However, Sonic and Tails are ambushed in midair as they arrive to look into strange readings, which sends them plummeting into an enigmatic new adventure. Sonic has to work quickly to stop Eggman before reality itself is permanently altered because he is alone, outmatched, and up against a threat unlike any other.
+      Sonic Hoshi DX is a complete reimagining of the original Sonic Hoshi project, rebuilt from the ground up to deliver a richer and more polished experience. Dive into a brand new adventure across Starshine Island and beyond as you race to stop Dr. Eggman from altering reality itself.
     </p>
-  </section>
+  </div>
 
-  <section id="features">
-    <h2>Features</h2>
-    <ul>
-      <li>Classic 2D platforming action reminiscent of the Sega Genesis era</li>
-      <li>9 zones to explore</li>
-      <li>Multiple playable characters</li>
-    </ul>
-  </section>
+  <div class="section screenshots">
+    <h2>Screenshots</h2>
+    <img src="https://raw.githubusercontent.com/sonichoshi/sonichoshidx.github.io/main/assets/ssz.png" alt="Screenshot 1" />
+    <img src="https://raw.githubusercontent.com/sonichoshi/sonichoshidx.github.io/main/assets/mmz.png" alt="Screenshot 2" />
+    <img src="https://raw.githubusercontent.com/sonichoshi/sonichoshidx.github.io/main/assets/jjz.png" alt="Screenshot 3" />
+  </div>
 
-  <section id="media" class="media">
-    <h2>Media</h2>
-    <img src="https://raw.githubusercontent.com/sonichoshi/sonichoshidx.github.io/main/assets/ssz.png" alt="Gameplay Screenshot 1" />
-    <img src="https://raw.githubusercontent.com/sonichoshi/sonichoshidx.github.io/main/assets/mmz.png" alt="Gameplay Screenshot 2" />
-    <img src="https://raw.githubusercontent.com/sonichoshi/sonichoshidx.github.io/main/assets/jjz.png" alt="Gameplay Screenshot 3" />
-    <img src="https://raw.githubusercontent.com/sonichoshi/sonichoshidx.github.io/main/assets/wwz.png" alt="Gameplay Screenshot 4" />
-  </section>
-
-  <section id="download" class="download">
+  <div class="section download">
     <h2>Download</h2>
-    <p>While we don't have a demo for the new version, check out the original Sonic Hoshi!</p>
+    <p>Try the original Sonic Hoshi now!</p>
     <a href="https://gamejolt.com/games/sonichoshi/751415" target="_blank">Download on Game Jolt</a>
-  </section>
-
-  <section id="credits" class="credits">
-    <h2>Credits</h2>
-    <ul>
-      <li><strong>Original Sonic Hoshi credits:</strong> 
-      <li>Glace Sue: Programming / Writing / Level Design / Music and Sprites. </li>
-      <li>SpookyGuga: Bosses / Cutscenes / Programming and Sprites.</li>
-      <li>Nuclear: Music.</li>
-      <li>troopsushi: Object Art / Background Art / Characters Art / Promo Logo, Writing.</li>
-      <li>Michaelwave: TileSet Assistance / TileSet Art.</li>
-      <li>Beta Nexus: TitleCard Design And Sprites.</li>
-      <li>Emma: Music / Character Sprites.</li>
-      <li>Rosabelle: Character Sprites, Promo Art.</li>
-      <li>Hazel: Testing.</li>
-      <li>darkn: Bug Fixing, Code Assistance.</li>
-      <li>joshyflip: Background Sprites / Character Sprites / Programming.</li>
-      <li>Wiz: Character Sprites..</li>
-      <li>ChrisFurry: Misc Sprites.</li>
-      <li>Spitfya: General Sprites / Effects / Quality Control.</li>
-      </li>
-    </ul>
-  </section>
+  </div>
 
   <footer>
     <p>Sonic Hoshi is a fan-made project and is not affiliated with SEGA or Sonic Team.</p>
@@ -186,4 +101,3 @@
 
 </body>
 </html>
-
