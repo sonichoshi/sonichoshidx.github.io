@@ -73,6 +73,39 @@
       padding: 30px 20px;
       margin-top: 60px;
     }
+
+    .curtain {
+      position: fixed;
+      top: 0;
+      width: 80px; /* adjust to image width */
+      height: 100%;
+      background-image: url('/path/to/your/curtain.png');
+      background-repeat: repeat-y;
+      background-size: cover;
+      animation: scrollCurtain 4s linear infinite;
+      z-index: 1000;
+      pointer-events: none; /* allows clicks through */
+    }
+
+    .curtain.left {
+      left: 0;
+      transform: scaleX(-1); /* mirror for left side */
+    }
+
+    .curtain.right {
+      right: 0;
+    }
+
+    @keyframes scrollCurtain {
+      0% { background-position-y: 0; }
+      100% { background-position-y: 100%; }
+    }
+  </style>
+
+  <div class="curtain left"></div>
+  <div class="curtain right"></div>
+
+    
   </style>
 </head>
 <body>
